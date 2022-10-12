@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Ilesh Mistry';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = `Ilesh's Next.js Sample Website`;
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Learn how to build a personal website using Next.js here"
         />
         <meta
           property="og:image"
@@ -64,7 +64,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>← Back to learn Next.js home</a>
           </Link>
         </div>
       )}
